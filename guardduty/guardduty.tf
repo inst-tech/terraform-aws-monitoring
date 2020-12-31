@@ -18,7 +18,7 @@ module "guardduty" {
   actions           = var.actions
   default_tags      = var.default_tags
   event_detail_type = "AWS GuardDuty event findings"
-  event_name        = "guardtuy_findings"
+  event_name        = "guardduty_findings"
   prefix            = var.prefix
 }
 
